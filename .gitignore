@@ -1,0 +1,30 @@
+﻿# Laravel / PHP project ignores for shots app
+shots/.env
+shots/.env.*
+!shots/.env.example
+!shots/.env.cpanel.sample
+
+# Dependencies and build output
+shots/vendor/
+shots/node_modules/
+shots/public/build/
+
+# Framework/runtime caches
+shots/storage/
+shots/bootstrap/cache/
+shots/public/storage/
+shots/public/hot
+
+# Logs and caches
+shots/.phpunit.result.cache
+shots/.phpunit.cache
+shots/npm-debug.log*
+shots/yarn-error.log*
+shots/pnpm-debug.log*
+
+# Local databases and dumps
+shots/database/database.sqlite
+shots/*.sql
+
+# Archives and bundles
+shots-cpanel-ready.zip
